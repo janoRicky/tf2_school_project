@@ -1,0 +1,96 @@
+
+* {
+	font-family: tf2Font;
+	cursor: url("../assets/cursors/tf2logo.cur"), auto;
+}
+body {
+	margin: 0;
+	font-size: 1.2em;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #F3A957;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: tf2Font;
+	src: url(TF2.woff);
+}
+.fontDefault {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.bg1 {
+	/*background-image: url("../assets/img/bg/mapbg.jpg");*/
+	background-color: black;
+	background-size: 100%;
+	background-position: center;
+	width: 100%;
+}
+.bg2 {
+	/*background-image: url("../assets/img/bg/charbg.png");*/
+	background-size: 100%;
+}
+
+.content {
+	background: grey;
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0) 100%);
+	background-size: cover;
+	background-position: center;
+
+	color: white;
+
+	text-align: center;
+
+	height: 100%;
+}
+
+.sideBar {
+	position: fixed;
+
+	width: 360px;
+
+	font-size: 25px;
+
+	z-index: 100;
+
+	margin-top: 10px;
+}
+.navIcons {
+	text-align: right; 
+	width: 60%;
+
+	float: left;
+
+	margin: 13px 0;
+	padding-right: 10px;
+
+	background-image: url("../assets/img/tab.png");
+	background-position: right;
+}
+.navIcons:hover {
+	float: right;
+}
+
+.navIcons > span {
+	color: white;
+	padding-right: 15px;
+}
+
+.contracker {
+	width: 450px;
+
+	position: fixed;
+	right: 5%;
+	bottom: 5%;
+
+	z-index: 101;
+
+	display: none;
+
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.contracker > img {
+	width: 100%;
+}

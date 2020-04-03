@@ -1,0 +1,47 @@
+ Volume in drive C is Windows
+ Volume Serial Number is B406-A20B
+
+ Directory of C:\Users\Melay\Desktop\webSys\TF2\views\characters\c1\c1\killicons_c1
+
+31/03/2020  11:18 PM    <DIR>          .
+31/03/2020  11:18 PM    <DIR>          ..
+31/03/2020  11:18 PM                 0 killiconsc1.txt
+17/02/2020  12:48 PM             1,077 Killicon_atomizer.png
+17/02/2020  12:48 PM             1,592 Killicon_baby_faces_blaster.png
+17/02/2020  12:48 PM            50,193 Killicon_back_scatter.png
+17/02/2020  12:48 PM             2,470 Killicon_bat.png
+17/02/2020  12:49 PM             2,451 Killicon_batsaber.png
+17/02/2020  12:48 PM             1,790 Killicon_bat_outta_hell.png
+17/02/2020  12:48 PM             1,257 Killicon_boston_basher.png
+17/02/2020  12:48 PM             1,934 Killicon_c.png
+17/02/2020  12:48 PM             1,314 Killicon_candy_cane.png
+17/02/2020  12:49 PM             1,595 Killicon_conscientious_objector.png
+17/02/2020  12:48 PM             1,510 Killicon_crossing_guard.png
+17/02/2020  12:48 PM               723 Killicon_fan_owar.png
+17/02/2020  12:48 PM             1,863 Killicon_flying_guillotine.png
+17/02/2020  12:48 PM             1,696 Killicon_force-a-nature.png
+17/02/2020  12:48 PM             2,672 Killicon_freedom_staff.png
+17/02/2020  12:49 PM               963 Killicon_frying_pan.png
+17/02/2020  12:48 PM             1,253 Killicon_golden_frying_pan.png
+17/02/2020  12:49 PM             1,488 Killicon_ham_shank.png
+17/02/2020  12:48 PM             1,812 Killicon_holy_mackerel.png
+17/02/2020  12:49 PM             2,867 Killicon_home_run.png
+17/02/2020  12:49 PM             1,042 Killicon_lugermorph.png
+17/02/2020  12:48 PM             1,350 Killicon_memory_maker.png
+17/02/2020  12:49 PM               846 Killicon_necro_smasher.png
+17/02/2020  12:49 PM               934 Killicon_pistol.png
+17/02/2020  12:48 PM               952 Killicon_pretty_boys_pocket_pistol.png
+17/02/2020  12:49 PM             1,502 Killicon_prinny_machete.png
+17/02/2020  12:48 PM             1,174 Killicon_sandman.png
+17/02/2020  12:49 PM             1,261 Killicon_sandman_ball.png
+17/02/2020  12:48 PM             1,275 Killicon_saxxy.png
+17/02/2020  12:48 PM             1,009 Killicon_scattergun.png
+17/02/2020  12:48 PM             1,001 Killicon_shortstop.png
+17/02/2020  12:48 PM               922 Killicon_soda_popper.png
+17/02/2020  12:48 PM             1,504 Killicon_sun-on-a-stick.png
+17/02/2020  12:49 PM               772 Killicon_three-rune_blade.png
+17/02/2020  12:48 PM             1,616 Killicon_unarmed_combat.png
+17/02/2020  12:48 PM               638 Killicon_winger.png
+17/02/2020  12:48 PM             1,701 Killicon_wrap_assassin.png
+              38 File(s)        102,019 bytes
+               2 Dir(s)  247,625,687,040 bytes free
