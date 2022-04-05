@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medic - TF2</title>
+	<link rel='icon' href='../../assets/img/icons/tf2icon.ico'>
+
+	<script src='../../script/jquery.min.js'></script>
+	<link rel='stylesheet' type='text/css' href='../../style/bootstrap-4.3.1/dist/css/bootstrap.min.css'>
+	<script src='../../style/bootstrap-4.3.1/dist/js/bootstrap.min.js'></script>
+
+	<link rel='stylesheet' type='text/css' href='../../style/main.css'>
+	<script src='../../script/mainScript.js'></script>
+
+	<link rel='stylesheet' type='text/css' href='../../style/char.css'>
+	<script src='../../script/char.js'></script>
+
+	<script src="c7_assets/assets_c7.js"></script>
+</head>
+<body>
+	<div class="sideBar">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="../../characters/c1/c1.html">
+						<div class="navIcons">
+							<span>SCOUT</span><img src="../../assets/img/icons/c1.png" alt="c1">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="../../characters/c2/c2.html">
+						<div class="navIcons">
+							<span>SOLDIER</span><img src="../../assets/img/icons/c2.png" alt="c2">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="../../characters/c3/c3.html">
+						<div class="navIcons">
+							<span>PYRO</span><img src="../../assets/img/icons/c3.png" alt="c3">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="../../characters/c4/c4.html">
+						<div class="navIcons">
+							<span>DEMOMAN</span><img src="../../assets/img/icons/c4.png" alt="c4">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="../../characters/c5/c5.html">
+						<div class="navIcons">
+							<span>HEAVY</span><img src="../../assets/img/icons/c5.png" alt="c5">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="../../characters/c6/c6.html">
+						<div class="navIcons">
+							<span>ENGINEER</span><img src="../../assets/img/icons/c6.png" alt="c6">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="../../characters/c7/c7.html">
+						<div class="navIcons">
+							<span>MEDIC</span><img src="../../assets/img/icons/c7.png" alt="c7">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="../../characters/c8/c8.html">
+						<div class="navIcons">
+							<span>SNIPER</span><img src="../../assets/img/icons/c8.png" alt="c8">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="../../characters/c9/c9.html">
+						<div class="navIcons">
+							<span>SPY</span><img src="../../assets/img/icons/c9.png" alt="c9">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="../../about.html">
+						<div class="navIcons">
+							<span>ABOUT</span><img src="../../assets/img/icons/qmark.png" style="width: 32px;" alt="about">
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg1">
+		<div class="bg2">
+			<div class="main">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-2"></div>
+						<div class="col-sm-8 content">
+							<!-- TF2 Title -->
+							<div class="row mt-2 mb-2" style="font-size: 0.2em;">
+								<div class="col-sm-1"></div>
+								<div class="col-sm-10">
+									<br><br><br><br>
+									<a href="../../index.html"><img src="../../assets/img/TF2Logo.png" style="width: 100%;" alt="Team Fortress 2"></a>
+								</div>
+								<div class="col-sm-1"></div>
+							</div>
+							<!-- Cig Case -->
+							<div class="row mt-5 mb-2">
+								<div class="col-sm-1"></div>
+								<div class="col-sm-5">
+									<div class="cigDiv">
+										<div class="cigCaseCover" style="background-image: url('../../assets/img/cigcasecover.png');">
+											<br>
+											<h2>MEDIC</h2>
+											<img class="emblem" src="../../assets/img/icons/c7eR.png" alt="Medic Emblem" id="imgEmblem">
+											<h5>Type</h5>Support
+											<h5>Health</h5>150
+											<h5>Speed</h5>107%
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-5">
+									<div class="cigDiv">
+										<div class="back"></div>
+										<div class="charModel" style="background-image: url('../../assets/img/models/c7mR.jpg');"></div>
+										<div class="cigCase" style="background-image: url('../../assets/img/cigcasescreen.png');">
+											<button id="btnReset"></button>
+											<button id="btnLeft"></button>
+											<button id="btnRight"></button>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-1"></div>
+							</div>
+							<!-- "Meet The" video -->
+							<div class="row mt-2 mb-2">
+								<div class="col-sm-12">
+									<!-- <video width="720" controls poster="../../assets/img/vidthumbnails/c7tn.png" style="border: solid black 5px;">
+										<source src="../../assets/videos/MeetTheMedic.mp4" type="video/mp4">
+									</video> -->
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/36lSzUMBJnc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: solid black 5px;"></iframe>
+								</div>
+							</div>
+							<!-- STORY -->
+							<div class="row mt-5 mb-2">
+								<div class="col-sm-12">
+									<div class="textCon">
+										<h1>THE MEDIC</h1>
+										<p>
+											The Medic is a Teutonic man of medicine from Stuttgart, Germany. While he may have a tenuous adherence to medical ethics, he is nonetheless the primary healing class of the team. Although the Medic's Syringe Gun and Bonesaw aren't the most excellent weapons for direct combat, he can typically still be found near the front lines, healing wounded teammates while trying to stay out of enemy fire.
+											<br><br>
+											When the Medic focuses his Medi Gun on a teammate, they will gradually regain health points. Teammates who are already at full health will have their health buffed beyond the standard limit, going up to 150% of their base health capacity (with the exception of weapons that have overheal penalties, such as the Fists of Steel and the Quick-Fix). Teammates who have not taken damage recently will be healed more rapidly, encouraging other players withdrawals when injured.
+											<br><br>
+											When healing, the Medic will gradually fill a unique ÜberCharge bar, which can fill faster if healing injured or not-fully-overhealed teammates. When the ÜberCharge bar is fully charged, the Medic's Medi Gun will begin to crackle, accompanied by small electric Team-colored particles at its tip, indicating that he can now deploy a unique charge to benefit his healing target, and himself, for eight seconds. A charge from the Medi Gun offers temporary invulnerability; a charge from the Kritzkrieg grants guaranteed critical hits; the Quick-Fix grants rapid healing, along with immunity to knockback and compression blasts from Pyros; and the Vaccinator grants enhanced damage resistance to a specific damage type (bullets, explosives, and fire).
+											<br><br>
+											Although the Medic cannot heal himself, he is capable of slowly regenerating health over time, and is the only class capable of doing this naturally. The longer a Medic stays out of combat and avoids taking damage, the greater the increments of health he will passively heal. An injured Medic will begin regenerating health at a rate of 3 health points per second, scaling up over the following ten seconds to a maximum of 6 health per second.
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- BIO -->
+							<div class="row mt-5 mb-2">
+								<div class="col-sm-12">
+									<div class="folder">
+										<div class="container">
+											<div class="row">
+												<div class="col-9">
+													<table>
+														<tbody>
+															<tr class="fRow">
+																<td></td>
+																<td><h1 style="color: #000000">BIO</h1></td>
+															</tr>
+															<tr class="fRow">
+																<td class="fHeader">NAME</td>
+																<td class="fontDefault">Dr. Ludwig</td>
+															</tr>
+															<tr class="fRow">
+																<td class="fHeader">LOCATION OF ORIGIN</td>
+																<td class="fontDefault">Stuttgart, Germany</td>
+															</tr>
+															<tr class="fRow">
+																<td class="fHeader">JOB</td>
+																<td class="fontDefault">Doctor Assisted Homicide</td>
+															</tr>
+															<tr class="fRow">
+																<td class="fHeader">MOTTO</td>
+																<td class="fontDefault">"Prepare for your examination"</td>
+															</tr>
+															<tr class="fRow">
+																<td class="fHeader">DESCRIPTION</td>
+																<td class="fontDefault">What he lacks in compassion for the sick, respect for human dignity, and any sort of verifiable formal training in medicine, the Medic more than makes up for with a bottomless supply of giant needles and a trembling enthusiasm for plunging them into exposed flesh. Raised in Stuttgart, Germany during an era when the Hippocratic oath had been downgraded to an optional Hippocratic suggestion, the Medic considers healing a generally unintended side effect of satisfying his own morbid curiosity.</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="col-3">
+													<br>
+													<img src="../../assets/img/portrait/c7p.jpg" style="width: 100%;" alt="MEDIC">
+													<br>
+													<table style="width: 100%;">
+														<tbody>
+															<tr>
+																<td class="fHeader">AGE</td>
+															</tr>
+															<tr class="fRow">
+																<td class="fontDefault">45</td>
+															</tr>
+															<tr>
+																<td class="fHeader">HEIGHT</td>
+															</tr>
+															<tr class="fRow">
+																<td class="fontDefault">184 (6'0")</td>
+															</tr>
+															<tr>
+																<td class="fHeader">WEIGHT</td>
+															</tr>
+															<tr class="fRow">
+																<td class="fontDefault">77kg (170lb)</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Item Container -->
+							<div class="row mt-5">
+								<div class="col-sm-12">
+									<div>
+										<div class="itemTabContainer">
+											<div class="itemTab btnWeap iActive">
+												<span>WEAPONS</span>
+											</div>
+											<div class="itemTab btnCosm">
+												<span>COSMETICS</span>
+											</div>
+										</div>
+										<div style="height: 47px;"></div>
+										<div class="itemContainer contWeapons icActive">
+											<div class="ic100">
+												contWeapons
+											</div>
+										</div>
+										<div class="itemContainer contCosmetics">
+											<div class="ic100">
+												contCosmetics
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-2"></div>
+					</div>
+					<div class="row mt-5">
+						<div class="col-sm-12" style="padding: 0;">
+							<div class="footer">
+								<img class="pr-1" src="../../assets/img/icons/tf2icon.png" alt="TF2_icon">
+								<span style="font-weight: bold;">TEAM FORTRESS 2 FANMADE WEBSITE</span>
+								<br>
+								<span>R.J.J.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contracker pop-up -->
+	<div class="contracker">
+		<img src="../../assets/img/contracker.png" alt="contracker">
+	</div>
+
+	<!-- Item Description pop-up -->
+	<div class="desc">
+		<span id="itemName"></span>
+	</div>
+</body>
+</html>
