@@ -21,14 +21,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg1 {
-	/*background-image: url("../assets/img/bg/mapbg.jpg");*/
+	background-image: url("../assets/img/bg/mapbg.jpg");
 	background-color: black;
 	background-size: 100%;
 	background-position: center;
 	width: 100%;
 }
 .bg2 {
-	/*background-image: url("../assets/img/bg/charbg.png");*/
+	background-image: url("../assets/img/bg/charbg.png");
 	background-size: 100%;
 }
 
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navIcons > span {
 	color: white;
-	padding-right: 15px;
+	padding-right: 18px;
 }
 
 .contracker {
@@ -93,4 +93,107 @@ h1, h2, h3, h4, h5, h6 {
 }
 .contracker > img {
 	width: 100%;
+}
+
+
+.textCon {
+	background-color: #2a2725;
+	border: solid #837768 3px;
+	border-radius: 8px;
+
+	padding: 30px;
+}
+.desc {
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+
+	background-image: url("../assets/img/desccontainer.png");
+	background-size: 100% 100%;
+	display: none;
+
+	max-width: 500px;
+
+	padding: 5px 10px;
+	border-radius: 10px;
+
+	position: absolute;
+	z-index: 50;
+}
+.imgCon {
+	margin: 20px;
+
+	box-shadow: -1px 0 5px 5px black;
+}
+.gGallery img {
+	width: 100%;
+	padding: 15px;
+}
+.folder {
+	background-color: #F8D775;
+	border-radius: 0 15px 0 0;
+
+	padding: 45px 50px 40px 30px;
+
+	box-shadow: -3px 3px 5px 0 black;
+}
+.folder .row {
+	color: black;
+	background-color: #F0F0FF;
+
+	padding: 60px 30px;
+
+	box-shadow: -1px 1px 5px 0 black;
+}
+.fSectionDiv {
+	padding: 20px 0;
+}
+.fImg {
+	width: auto;
+	background-color: #fdf7d6;
+	border: solid #efe5bf 1px;
+	padding: 10px;
+	margin: 0 15px;
+
+	box-shadow: 0 0 7px 0 black;
+}
+.fImg-left {
+	float: left;
+	clear: left;
+}
+.fImg-right {
+	float: right;
+	clear: right;
+}
+.fImg span {
+	font-size: 0.7em;
+}
+.fPar {
+	text-align: justify;
+	padding: 0 25px;
+}
+.fRow {
+	color: black;
+	border-bottom: solid black 1px;
+}
+.fHeader {
+	font-size: 1.2em;
+	font-weight: bold;
+
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.footer {
+	color: white;
+	background-color: #2a2725;
+	border-color: #837768;
+	border-style: solid;
+	border-width: 3px 3px 0 3px;
+	border-radius: 8px 8px 0 0;
+
+	padding: 20px;
+
+	text-align: center;
 }
