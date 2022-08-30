@@ -9,3 +9,9 @@ MADE WITH:<br />
 Most resources are taken from wiki.teamfortress.com and teamfortress.com
 
 THIS PROJECT WAS MADE AS AN INDIVIDUAL SCHOOL PROJECT
+
+
+# Screenshots:
+![alt text](https://github.com/janoRicky/tf2_school_project/blob/master/assets/tf2sc-1.jpg?raw=true)
+![alt text](https://github.com/janoRicky/tf2_school_project/blob/master/assets/tf2sc-1.jpg?raw=true)
+![alt text](https://github.com/janoRicky/tf2_school_project/blob/master/assets/tf2sc-1.jpg?raw=true)
