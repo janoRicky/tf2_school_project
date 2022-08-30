@@ -13,5 +13,5 @@ THIS PROJECT WAS MADE AS AN INDIVIDUAL SCHOOL PROJECT
 
 # Screenshots:
 ![alt text](https://github.com/janoRicky/tf2_school_project/blob/master/assets/tf2sc-1.jpg?raw=true)
-![alt text](https://github.com/janoRicky/tf2_school_project/blob/master/assets/tf2sc-1.jpg?raw=true)
-![alt text](https://github.com/janoRicky/tf2_school_project/blob/master/assets/tf2sc-1.jpg?raw=true)
+![alt text](https://github.com/janoRicky/tf2_school_project/blob/master/assets/tf2sc-2.jpg?raw=true)
+![alt text](https://github.com/janoRicky/tf2_school_project/blob/master/assets/tf2sc-3.jpg?raw=true)
